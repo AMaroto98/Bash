@@ -1,8 +1,11 @@
 #!/bin/bash
+# 10/01/2023
+
+# Operaciones arirméticas básicas.
 
 clear
 
-echo "Calculadora de la muerte 10.0"
+echo "Calculadora"
 echo "Introduce el primer valor"
 read valor1
 echo "Elige una de las opciones: + - * /"
