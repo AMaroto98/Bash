@@ -16,7 +16,7 @@ while [ $number -ne $PID ]
 do
 	read -p "Introduce el número: " number
 
-	if [[ $number =~ ^[0-9]+$ ]]; then
+	if [[ $number =~ $validacion ]]; then
 
    		echo "El número introducio es valido"
 
